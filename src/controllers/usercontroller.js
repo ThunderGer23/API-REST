@@ -3,7 +3,7 @@ const User = require('../models/user');
 const Car = require('../models/cars');
 
 module.exports = {
-        
+
     index: async (req, res, next) => {
         const users =  await User.find({});            
         //throw new Error('dummy error');

@@ -1,8 +1,10 @@
+//Importaciones necesarias para el funcionamiento inicial de la app
 const bodyParser = require("body-parser");
 const express = require('express');
 const morgan = require("morgan");
 const mongoose = require("mongoose");
 const app = express();
+
 //Routes
 const routes = require('./routes/routes');
 
